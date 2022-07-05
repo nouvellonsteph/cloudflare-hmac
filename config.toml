@@ -1,0 +1,28 @@
+baseURL = 'https://hmac.justalittlebyte.ovh/'
+languageCode = 'en-us'
+title = 'Cloudflare implementations & boilerplates'
+theme = "ananke"
+copyright = "Hosted with <3 by Cloudflare Pages"
+features = ["posts", "shortcodes", "related content", "comments"]
+Paginate = 10
+
+[params]
+  site_logo = "img/logo.png"
+  background_color_class = "bg-white"
+  author = "Stephane Nouvellon"
+  description = "Ask for our best signatures dishes"
+
+[languages]
+  [languages.en]
+    title = "Cloudflare implementations & boilerplates"
+    weight = 2
+    contentDir = "content/en"
+    #languageDirection = 'rtl'
+  [languages.fr]
+    title = "Guides de démarrage Cloudflare "
+    weight = 1
+    contentDir = "content/fr"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/nouvellonsteph"

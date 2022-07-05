@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Cloudflare implementations &amp; boilerplates</title>
+    <link>https://hmac.justalittlebyte.ovh/tags/</link>
+    <description>Recent content in Tags on Cloudflare implementations &amp; boilerplates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Hosted with &lt;3 by Cloudflare Pages</copyright><atom:link href="https://hmac.justalittlebyte.ovh/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

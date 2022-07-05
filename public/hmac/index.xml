@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hmacs on HMAC validation boilerplates</title>
+    <link>https://hmac.justalittlebyte.ovh/hmac/</link>
+    <description>Recent content in Hmacs on HMAC validation boilerplates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Hosted with &lt;3 by Cloudflare Pages</copyright>
+    <lastBuildDate>Tue, 05 Jul 2022 11:03:34 +0200</lastBuildDate><atom:link href="https://hmac.justalittlebyte.ovh/hmac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HMAC Validated with Cloudflare Workers</title>
+      <link>https://hmac.justalittlebyte.ovh/hmac/fw-rule/</link>
+      <pubDate>Tue, 05 Jul 2022 11:03:34 +0200</pubDate>
+      
+      <guid>https://hmac.justalittlebyte.ovh/hmac/fw-rule/</guid>
+      <description>The link below is valid forever for the purpose of the test. The MAC message is a HMAC (sha1) signature of the path of the request.
+https://
+The workers script running on your zone must be the following
+addEventListener(&amp;#39;fetch&amp;#39;, event =&amp;gt; { event.respondWith(fetchAndLog(event.request)) }) async function fetchAndLog(request) { let url = new URL(request.url) if (url.protocol == &amp;#34;http:&amp;#34;) { url.protocol = &amp;#39;https:&amp;#39; return Response.redirect(url.href, 301) } if (url.searchParams.get(&amp;#39;verify&amp;#39;) &amp;amp;&amp;amp; url.searchParams.get(&amp;#39;verify&amp;#39;).match(/^\d.*-.*$/)) { const encoder = new TextEncoder() const token = url.</description>
+    </item>
+    
+  </channel>
+</rss>
